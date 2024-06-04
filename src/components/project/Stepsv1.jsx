@@ -8,7 +8,7 @@ const Messages =[
     'Attend postmalone concert'
 ]
 //we want to use this step to serve as index to this mesage array and display it to the message p tag,we use -1 so that the index can start from 0
-const step =1;
+// const step =1;
 const Project = ()=>{
     //conditional rendering
     const [isOpen,setIsOpen]=useState(true)
